@@ -1,0 +1,120 @@
+/* .h-primary{
+   
+    font-size:larger;
+    margin-bottom: 10px;
+   
+} */
+
+
+#navbar ul{
+    /* border: 2px solid palevioletred; */
+    margin-left: 2px ;
+    display: flex;
+
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    
+    list-style: none;
+    font-size: 15px;
+    /* float: right; */
+}
+
+#navbar ul li a{
+   
+    color:white;
+    display: flex;
+    padding: 0px 4px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+   
+}
+
+#logo img{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+#about{
+    font-size: 15px;
+    width: 250px;
+    
+}
+#about::before{ 
+   
+   height: 500px;
+    
+}
+
+
+#about p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.skilldiv ul li{
+    padding: 20px;
+    display: inline;
+    font-size:small;
+    font-family: cursive;
+  
+}
+#projects{
+    
+    text-align: center;
+    /* border: 5px solid red; */
+    margin: 40px;
+}
+
+
+/* To align you tube icon */
+.formatting{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: rgb(117, 108, 110); */
+    /* border:5px solid  rgb(114, 71, 255); */
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding-left: 5px;
+    margin: -11px auto;
+    
+   
+}
+
+.space{
+    
+    
+    /* background-color: chartreuse; */
+   margin: 5px;
+   /* text-align: center; */
+   padding: 0px;
+   /* border:2px solid  violet; */
+}
+#contacts::before{
+    height: 50%;
+}
+
+
+.center {
+    margin-top: 10px;
+}
+
+.space a{
+   
+    /* background-color: rgb(136, 135, 222); */
+    flex-wrap: wrap;
+    
+
+}
+
+i {
+    font-size: 20px;
+}
